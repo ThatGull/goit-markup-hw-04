@@ -468,8 +468,7 @@ border-radius: 0px 0px 4px 4px;
   }
   .contact-icon {
     margin-right: 10px;
-    fill:black;
-    background-color: red;
+    fill:#AFB1B8;
 
 
     /* тут начался треш со спрайтами */
@@ -490,9 +489,8 @@ border-radius: 0px 0px 4px 4px;
   }
   .features-icon {
     align-items: center;
-    fill:black;
-    background-color: red;
-    /* заменить на филл */
+    fill:#AFB1B8;
+
 
   }
   .team-social-list {
@@ -569,8 +567,8 @@ border-radius: 0px 0px 4px 4px;
   }
   
   .client-icon {
-    fill: black;
-    background-color:red;
+    fill: #AFB1B8;
+    
     /* заменить на филл */
   }
   
@@ -578,4 +576,20 @@ border-radius: 0px 0px 4px 4px;
   .client-item:focus {
     color: #2196F3;
     border-color: #2196F3;
+  }
+  /*допы на подвал*/
+  .downside-flex {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .downside-social-text {
+    padding: 20px 0px 10px 0px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14px;
+    text-transform: uppercase;
+    color: ;
   }
