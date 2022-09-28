@@ -502,13 +502,11 @@ border-radius: 0px 0px 4px 4px;
     align-items: center;
   }
   .team-social-item {
-    width: 44px;
-    height: 44px;
+
   }
 
   .team-social-link {
-    width: 44px;
-    height: 44px;
+
     display: block;
     border-radius: 50%;
     color: #afb1b8;
@@ -544,10 +542,8 @@ border-radius: 0px 0px 4px 4px;
     width: 170px;
     height: 90px;
   }
-  
-.client-item:not(:last-child) {
-    margin-right: 30px;
-  }
+
+
   
   .client-link {
     width: 170px;
@@ -591,5 +587,5 @@ border-radius: 0px 0px 4px 4px;
     font-size: 14px;
     line-height: 1.14px;
     text-transform: uppercase;
-    color: ;
+
   }
