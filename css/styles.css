@@ -107,7 +107,9 @@ color: #2196F3;
     letter-spacing: 0.03em;
     font-weight: normal;
     font-style: normal;
-
+}
+.downadress-item {
+    margin-top: 9px;
 }
 .downnavy-contact span {    
     font-family: 'Roboto';
@@ -376,7 +378,7 @@ color: #2196F3;
 .allfeatures-list {
     display: flex;
 }
-.main-feature {
+.main-feature:not(:last-child) {
     margin-right: 30px;
     max-width: 270px;
 }
@@ -421,12 +423,6 @@ border-radius: 0px 0px 4px 4px;
     padding-bottom: 60px;
 }
 
-.downlogo {
-
-    padding-top:60px ;
-    padding: left 215px;
-    padding-bottom: 161px;
-}
 .topbutton-menu {
     display: flex;
     justify-content: center;
@@ -498,16 +494,21 @@ border-radius: 0px 0px 4px 4px;
     padding: 0px 32px;
     margin-top: 16px;
     list-style: none;
-    justify-content: space-between;
+   gap: 10px;
     align-items: center;
-  }
-  .team-social-item {
 
   }
-
+  .team-social-icon {
+    fill:currentColor;
+    
+  }
   .team-social-link {
 
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     color: #afb1b8;
     background-color: #f5f4fa;
@@ -538,34 +539,27 @@ border-radius: 0px 0px 4px 4px;
     justify-content: space-between;
     align-items: center;
   }
-  .client-item {
-    width: 170px;
-    height: 90px;
-  }
 
-
-  
-  .client-link {
-    width: 170px;
-    height: 90px;
-    display: block;
-    border: 1px solid #afb1b8;
-    color: #afb1b8;
-    background-color:#F5F5F5;
-    padding: 16px 32px;
-    
-  }
-  
   .client-link:hover,
   .client-link:focus {
     color: #2196F3;
     border-color: #2196F3;
   }
+  .client-link {
+    width: 170px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: #AFB1B8;;
+  }
   
   .client-icon {
-    fill: #AFB1B8;
+    fill:currentColor;
     
-    /* заменить на филл */
+
   }
   
   .client-item:hover,
@@ -573,19 +567,13 @@ border-radius: 0px 0px 4px 4px;
     color: #2196F3;
     border-color: #2196F3;
   }
-  /*допы на подвал*/
-  .downside-flex {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  .downside-social-text {
-    padding: 20px 0px 10px 0px;
-    margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14px;
-    text-transform: uppercase;
+.social-footer {
+    background-color:rgba(255, 255, 255, 0.1);
+    color:white;
 
-  }
+}
+.downsocial {
+    display: flex;
+    align-items: baseline;
+
+}
