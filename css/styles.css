@@ -533,6 +533,7 @@ background-color: #FFFFFF;
     flex-direction: column;
     margin-bottom: 30px;
     background: #F5F4FA;
+    border-radius: 4px;
 
   }
   .features-icon {
@@ -543,7 +544,7 @@ background-color: #FFFFFF;
   }
   .team-social-list {
     display: flex;
-
+    justify-content: center;
     margin-top: 16px;
     list-style: none;
     gap: 10px;
@@ -551,6 +552,7 @@ background-color: #FFFFFF;
 
   }
 .team-social-item {
+
     width: 44px;
     height: 44px;
 }
@@ -560,7 +562,7 @@ background-color: #FFFFFF;
     
   }
   .team-social-link {
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -570,7 +572,7 @@ background-color: #FFFFFF;
     color: #afb1b8;
     background-color: white;
   }
-  
+
   .team-social-link:hover,
   .team-social-link:focus {
     color: #ffffff;
@@ -615,10 +617,14 @@ background-color: #FFFFFF;
   
   .client-icon {
     fill:currentColor;
+   
     
 
   }
-  
+.client-item {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
   .client-item:hover,
   .client-item:focus {
     color: #2196F3;
@@ -680,11 +686,11 @@ background-color: #FFFFFF;
 
 }
 .footer-social-text {
-    padding: 20px 0px 10px 0px;
+
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     text-transform: uppercase;
     color:white;
   }
