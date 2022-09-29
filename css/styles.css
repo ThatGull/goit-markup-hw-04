@@ -669,7 +669,7 @@ background-color: #FFFFFF;
 }
 .dowmsocial {
     color: #FFFFFF;
-    align-items: center;
+    
     text-align: center;
     font-family: 'Roboto';
     font-style: normal;
@@ -679,7 +679,7 @@ background-color: #FFFFFF;
     letter-spacing: 0.03em;
     line-height: 1.17;  
     text-transform: uppercase;
-    padding-left: 70px;
+    margin-left: 70px;
 
 
 
@@ -694,3 +694,6 @@ background-color: #FFFFFF;
     text-transform: uppercase;
     color:white;
   }
+.adressmarg {
+    margin-top: 20PX;
+}
