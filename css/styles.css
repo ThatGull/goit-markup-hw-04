@@ -101,6 +101,11 @@ a {
     color: #757575;
 
  }
+ .mail:hover,
+ .mail:focus {
+    color: #2196F3;
+    fill: #2196F3;
+ }
 .call {
     font-family: 'Roboto';
     font-weight: 500;
@@ -113,12 +118,10 @@ a {
 .call:hover,
 .call:focus {
     color: #2196F3;
+    fill: #2196F3;
     
 }
-.mail:hover,
-.mail:focus {
-    color: #2196F3;
-}
+
 .link:hover,
 .link:focus {
     color: #2196F3;
@@ -514,7 +517,7 @@ background-color: #FFFFFF;
 
   .contact-icon {
     margin-right: 10px;
-    fill:#AFB1B8;
+    fill:currentColor
 
   }
   .contact-icon:hover,
