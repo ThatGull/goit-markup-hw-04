@@ -75,6 +75,12 @@ a {
     
     color: #757575;;  
  }
+ .upnavy-contact:hover,
+ .upnavy-contact:focus {
+    color: #2196F3;
+
+
+ }
  .upnavy-contact span {
     font-family: 'Roboto';
     font-weight: 500;
@@ -107,10 +113,16 @@ a {
 .call:hover,
 .call:focus {
     color: #2196F3;
+    
 }
 .mail:hover,
 .mail:focus {
     color: #2196F3;
+}
+.link:hover,
+.link:focus {
+    color: #2196F3;
+
 }
  .downside {
     background: #2F303A;
@@ -378,6 +390,7 @@ a {
 }
 .upnavy-item {
     margin-right: 50px;
+
 }
 .link1 , .link2 {
     display: block;
@@ -410,8 +423,8 @@ a {
     display: flex;
 }
 .main-feature:not(:last-child) {
-    margin-right: 10px;
-    max-width: 270px;
+    margin-right: 30px;
+    width: 270px;
 }
 .features {
     margin-bottom: 10px;
@@ -497,16 +510,16 @@ background-color: #FFFFFF;
   .text {
     margin-top: 4px;
   }
-  .contact-icon:hover {
-    fill:#2196F3;
-  }
+
+
   .contact-icon {
     margin-right: 10px;
     fill:#AFB1B8;
 
-
-    /* тут начался треш со спрайтами */
-
+  }
+  .contact-icon:hover,
+  .contact-icon:focus {
+    fill: #2196F3;
   }
   .features-icon-background {
     display: flex;
@@ -527,10 +540,10 @@ background-color: #FFFFFF;
   }
   .team-social-list {
     display: flex;
-    padding: 0px 32px;
+
     margin-top: 16px;
     list-style: none;
-   gap: 10px;
+    gap: 10px;
     align-items: center;
 
   }
@@ -540,6 +553,7 @@ background-color: #FFFFFF;
 }
   .team-social-icon {
     fill:currentColor;
+    
     
   }
   .team-social-link {
@@ -551,7 +565,7 @@ background-color: #FFFFFF;
     height: 44px;
     border-radius: 50%;
     color: #afb1b8;
-    background-color: #f5f4fa;
+    background-color: white;
   }
   
   .team-social-link:hover,
@@ -614,7 +628,7 @@ background-color: #FFFFFF;
 }
 .downsocial {
     display: flex;
-    align-items: baseline;
+
 
 }
 .all-social {
@@ -623,7 +637,7 @@ background-color: #FFFFFF;
     margin: 0;
     list-style: none;
     justify-content: space-between;
-    align-items: center;
+    align-items:baseline;
     
    
 
@@ -656,6 +670,10 @@ background-color: #FFFFFF;
     letter-spacing: 0.03em;
     line-height: 1.17;  
     text-transform: uppercase;
+    padding-left: 70px;
+
+
+
 
 }
 .footer-social-text {
